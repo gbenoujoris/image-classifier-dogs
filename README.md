@@ -11,16 +11,14 @@ classifier.py: A function to classify images using pre-trained CNNs.
 test_classifier.py: An example script to demonstrate the classifier function.
 # How to Run
 Install required libraries:
-bash
-Copy code
-pip install numpy torch torchvision pillow  
+numpy
+torch
+torchvision
+PIL 
 # Test the classifier with the provided script:
-bash
-Copy code
 python test_classifier.py  
 Use your scripts to classify images and evaluate performance.
 # Notes
 The project focuses on using Python skills, not building a classifier from scratch.
 Certain breeds may look similar, leading to occasional misclassifications (e.g., Great Pyrenees vs. Kuvasz).
-Future Improvements
-Enhance the ability to differentiate between similar breeds.
+
